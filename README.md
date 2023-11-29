@@ -44,7 +44,8 @@ KubeVela needs to be installed in Kubernetes before use.
           return userName + ":" + password;
       }
 ``` 
-#### example
+## example
+<!-- start example -->
 you should input a yaml format string.
 Attention:
 - AskConfig must be encoder by base64.
@@ -162,7 +163,7 @@ yamlString: |
 | namespace      | pod namespace | null       | yes       |
 | askConfig      | ask config               | null   | yes       |
 
-
+<!-- end example -->
 ## Usage
 
 <!-- start usage -->
